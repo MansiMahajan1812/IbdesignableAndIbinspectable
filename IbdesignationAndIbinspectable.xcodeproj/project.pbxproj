@@ -14,6 +14,7 @@
 		B18243F220DA18E30008BA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18243F020DA18E30008BA73 /* LaunchScreen.storyboard */; };
 		B18243FD20DA18E30008BA73 /* IbdesignationAndIbinspectableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18243FC20DA18E30008BA73 /* IbdesignationAndIbinspectableTests.swift */; };
 		B182440820DA18E30008BA73 /* IbdesignationAndIbinspectableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B182440720DA18E30008BA73 /* IbdesignationAndIbinspectableUITests.swift */; };
+		B182441820DA1A060008BA73 /* DemoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B182441720DA1A060008BA73 /* DemoButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B182440320DA18E30008BA73 /* IbdesignationAndIbinspectableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbdesignationAndIbinspectableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B182440720DA18E30008BA73 /* IbdesignationAndIbinspectableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbdesignationAndIbinspectableUITests.swift; sourceTree = "<group>"; };
 		B182440920DA18E30008BA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B182441720DA1A060008BA73 /* DemoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B18243E620DA18E30008BA73 /* IbdesignationAndIbinspectable */ = {
 			isa = PBXGroup;
 			children = (
+				B182441720DA1A060008BA73 /* DemoButton.swift */,
 				B18243E720DA18E30008BA73 /* AppDelegate.swift */,
 				B18243E920DA18E30008BA73 /* ViewController.swift */,
 				B18243EB20DA18E30008BA73 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B18243EA20DA18E30008BA73 /* ViewController.swift in Sources */,
+				B182441820DA1A060008BA73 /* DemoButton.swift in Sources */,
 				B18243E820DA18E30008BA73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
